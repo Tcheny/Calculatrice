@@ -10,27 +10,33 @@
 </head>
 <body>
 
-  <form>
-    <div class="row" >
+  <form class="design">
+    <div class="ecran row" >
       <div id="ecran" class="text-right"></div>
     </div>
     <div class="row">
       <div class="calcul">
+        <button type="button" value="C" onclick="btnClean()">C</button>
+        <button type="button" value="%" onclick="btnModulo()">%</button>
+        <button type="button" value="x" onclick="btnMultip()">x</button>
+        <button type="button" value="%" onclick="btnDivise()">/</button>
+
         <button type="button" value="7" onclick="btn(7)">7</button>
         <button type="button" value="8" onclick="btn(8)">8</button>
         <button type="button" value="9" onclick="btn(9)">9</button>
-        <button type="button" value="-" onclick="btnMoins()">-</button>
+        <button type="button" value="+" onclick="btnPlus()">+</button>
+
         <button type="button" value="4" onclick="btn(4)">4</button>
         <button type="button" value="5" onclick="btn(5)">5</button>
         <button type="button" value=6"" onclick="btn(6)">6</button>
-        <button type="button" value="+" onclick="btnPlus()">+</button>
+        <button type="button" value="-" onclick="btnMoins()">-</button>
+
         <button type="button" value="1" onclick="btn(1)">1</button>
         <button type="button" value="2" onclick="btn(2)">2</button>
         <button type="button" value="3" onclick="btn(3)">3</button>
-        <button type="button" value="C" onclick="btnClean()">C</button>
-        <button type="button" value="x" onclick="btnMultip()">x</button>
+        <button type="button" value="-" onclick="btnPoint()">.</button>
+
         <button type="button" value="0" onclick="btn(0)">0</button>
-        <button type="button" value="%" onclick="btnDivise()">%</button>
         <button type="button" value="=" onclick="btnEgal()">=</button>
       </div>
     </div>

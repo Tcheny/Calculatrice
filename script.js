@@ -26,7 +26,13 @@ btnDivise = () => {
   ecran.innerHTML += "/"
 }
 
+btnModulo = () => {
+  ecran.innerHTML += "%"
+}
+btnPoint = () => {
+  ecran.innerHTML += "."
+}
 btnEgal = () => {
   let resultat = eval(document.getElementById('ecran').innerHTML);
-  ecran.innerHTML = resultat; 
+  ecran.innerHTML = resultat;
 }
